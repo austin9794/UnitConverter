@@ -25,6 +25,8 @@ public class UnitConverter {
             case 1:
                 result = Converter.celsiusToFahrenheit(value);
                 break;
-                
+            case 2:
+                result = Converter.fahrenheitToCelsius(value);
+                break;    
 
 }
