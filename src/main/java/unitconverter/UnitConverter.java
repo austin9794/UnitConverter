@@ -34,5 +34,11 @@ public class UnitConverter {
             case 4:
                 result = Converter.poundsToKg(value);
                 break;
-                    
+            default:
+                System.out.println("Invalid option.");
+                input.close();
+                return;
+        }
+        
+
 }
