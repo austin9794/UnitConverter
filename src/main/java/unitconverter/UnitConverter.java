@@ -20,5 +20,11 @@ public class UnitConverter {
         double value = input.nextDouble();
 
         double result;
-        
+
+        switch (choice) {
+            case 1:
+                result = Converter.celsiusToFahrenheit(value);
+                break;
+                
+
 }
