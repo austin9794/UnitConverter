@@ -39,6 +39,8 @@ public class UnitConverter {
                 input.close();
                 return;
         }
-        
+
+        System.out.println("Result: " + result);
+        input.close();
 
 }
