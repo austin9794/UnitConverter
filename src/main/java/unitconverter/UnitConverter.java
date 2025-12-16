@@ -42,5 +42,6 @@ public class UnitConverter {
 
         System.out.println("Result: " + result);
         input.close();
+    }
 
 }
