@@ -31,5 +31,8 @@ public class UnitConverter {
             case 3:
                 result = Converter.kgToPounds(value);
                 break;
-                
+            case 4:
+                result = Converter.poundsToKg(value);
+                break;
+                    
 }
