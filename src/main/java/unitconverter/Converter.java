@@ -10,6 +10,12 @@ public class Converter {
         return (f - 32) * 5 / 9;
     }
 
-    
+    public static double kgToPounds(double kg) {
+        return kg * 2.20462;
+    }
+
+    public static double poundsToKg(double lb) {
+        return lb / 2.20462;
+    }
     
 }
