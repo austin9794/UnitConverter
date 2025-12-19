@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class UnitConverter {
 
-    public static void run() {
-        Scanner scanner = new Scanner(System.in);
+    public static void run(Scanner scanner) {
+        System.out.println("Welcome to Unit Converter");
 
         System.out.println("Choose conversion:");
         System.out.println("1. Celsius to Fahrenheit");
