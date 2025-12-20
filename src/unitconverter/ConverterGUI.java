@@ -42,3 +42,7 @@ public class ConverterGUI {
         convertButton.setBounds(120, 100, 150, 30);
         frame.add(convertButton);
 
+         resultLabel = new JLabel("Result: ");
+        resultLabel.setBounds(20, 150, 350, 25);
+        frame.add(resultLabel);
+
