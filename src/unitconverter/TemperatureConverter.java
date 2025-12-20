@@ -1,14 +1,12 @@
 package unitconverter;
 
-public class TemperatureConverter implements Converter {
+public class TemperatureConverter {
 
-    @Override
-    public double convert(double celsius) {
-        return (celsius * 9 / 5) + 32;
+    public static double celsiusToFahrenheit(double c) {
+        return (c * 9 / 5) + 32;
     }
 
-    @Override
-    public String getDescription() {
-        return "Celsius to Fahrenheit";
+    public static double fahrenheitToCelsius(double f) {
+        return (f - 32) * 5 / 9;
     }
 }
