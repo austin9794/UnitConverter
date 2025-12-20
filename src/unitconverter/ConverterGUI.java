@@ -72,4 +72,5 @@ public class ConverterGUI {
                     case "Pounds → Kilograms":
                         result = WeightConverter.lbToKg(value);
                         break;
+                }
 
