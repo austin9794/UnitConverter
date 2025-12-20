@@ -27,4 +27,6 @@ public class ConverterGUI {
                 "Kilograms → Pounds",
                 "Pounds → Kilograms"
         });
+        conversionBox.setBounds(180, 20, 180, 25);
+        frame.add(conversionBox);
 
