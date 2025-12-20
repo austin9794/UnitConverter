@@ -1,15 +1,13 @@
 package unitconverter;
 
-public class WeightConverter implements Converter {
+public class WeightConverter {
 
-    @Override
-    public double convert(double kg) {
+    public static double kgToLb(double kg) {
         return kg * 2.20462;
     }
 
-    @Override
-    public String getDescription() {
-        return "Kilograms to Pounds";
+    public static double lbToKg(double lb) {
+        return lb / 2.20462;
     }
 }
 
