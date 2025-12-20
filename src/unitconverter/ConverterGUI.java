@@ -21,5 +21,9 @@ public class ConverterGUI {
         title.setBounds(20, 20, 150, 25);
         frame.add(title);
 
-        
+        conversionBox = new JComboBox<>(new String[]{
+                "Celsius → Fahrenheit",
+                "Fahrenheit → Celsius",
+                "Kilograms → Pounds",
+                "Pounds → Kilograms"
 
