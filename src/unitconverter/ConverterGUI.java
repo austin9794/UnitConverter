@@ -38,3 +38,7 @@ public class ConverterGUI {
         inputField.setBounds(180, 60, 180, 25);
         frame.add(inputField);
 
+        JButton convertButton = new JButton("Convert");
+        convertButton.setBounds(120, 100, 150, 30);
+        frame.add(convertButton);
+
