@@ -11,4 +11,11 @@ public class ConverterGUI {
     private JLabel resultLabel;
     private JComboBox<String> conversionBox;
 
-    
+    public ConverterGUI() {
+        frame = new JFrame("Unit Converter");
+        frame.setSize(400, 250);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setLayout(null);
+
+        
+
