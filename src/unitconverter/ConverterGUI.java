@@ -76,3 +76,9 @@ public class ConverterGUI {
 
                 resultLabel.setText("Result: " + result);
 
+            } catch (NumberFormatException ex) {
+                JOptionPane.showMessageDialog(frame,
+                        "Please enter a valid number",
+                        "Input Error",
+                        JOptionPane.ERROR_MESSAGE);
+
