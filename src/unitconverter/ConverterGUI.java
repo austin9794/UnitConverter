@@ -45,6 +45,10 @@ public class ConverterGUI extends JFrame {
         centerPanel.add(new JLabel("Output Value:"));
         centerPanel.add(outputField);
 
+        // ===== BUTTON =====
+        JButton convertButton = new JButton("Convert");
+        convertButton.addActionListener(e -> performConversion());
+
 
 
 
