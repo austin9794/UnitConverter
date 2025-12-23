@@ -1,7 +1,7 @@
 package unitconverter;
 
-import javax.swing.*;
 import java.awt.*;
+import javax.swing.*;
 
 public class ConverterGUI extends JFrame {
 
@@ -100,6 +100,9 @@ public class ConverterGUI extends JFrame {
                     "Input Error",
                     JOptionPane.ERROR_MESSAGE
             );
+            }
+        }
+    }
 
 
 
