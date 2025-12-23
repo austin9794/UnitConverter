@@ -80,6 +80,9 @@ public class ConverterGUI extends JFrame {
                 case "Celsius → Fahrenheit":
                     result = TemperatureConverter.celsiusToFahrenheit(input);
                     break;
+                case "Fahrenheit → Celsius":
+                    result = TemperatureConverter.fahrenheitToCelsius(input);
+                    break;
 
 
 
