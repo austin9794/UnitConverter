@@ -40,6 +40,11 @@ public class ConverterGUI extends JFrame {
         outputField = new JTextField();
         outputField.setEditable(false);
 
+        centerPanel.add(new JLabel("Input Value:"));
+        centerPanel.add(inputField);
+        centerPanel.add(new JLabel("Output Value:"));
+        centerPanel.add(outputField);
+
 
 
 
