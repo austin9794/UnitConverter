@@ -109,7 +109,10 @@ public class ConverterGUI extends JFrame {
                     break;     
                  case "Centimeters → Meters":
                     result = LengthConverter.centimetersToMeters(input);
-                    break;     
+                    break;    
+                case "Meters → Centimeters":
+                   result = LengthConverter.metersToCentimeters(input);
+                   break; 
             }
 
             outputField.setText(String.valueOf(result));
