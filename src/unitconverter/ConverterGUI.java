@@ -67,6 +67,11 @@ public class ConverterGUI extends JFrame {
             conversionBox.addItem("Celsius → Fahrenheit");
             conversionBox.addItem("Fahrenheit → Celsius");
             break;
+
+        case "Weight":
+            conversionBox.addItem("Kg → Lb");
+            conversionBox.addItem("Lb → Kg");
+            break;    
     }
 
     private void performConversion() {
