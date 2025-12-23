@@ -10,6 +10,12 @@ public class ConverterGUI extends JFrame {
     private JTextField inputField;
     private JTextField outputField;
 
-    
+    public ConverterGUI() {
+        setTitle("Unit Converter");
+        setSize(400, 250);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLocationRelativeTo(null);
+
+
 
 
