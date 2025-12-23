@@ -69,6 +69,13 @@ public class ConverterGUI extends JFrame {
         }
     }
 
+    private void performConversion() {
+        try {
+            double input = Double.parseDouble(inputField.getText());
+            String conversion = (String) conversionBox.getSelectedItem();
+
+            double result = 0;
+
 
 
 
