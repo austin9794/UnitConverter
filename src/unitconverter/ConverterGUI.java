@@ -86,6 +86,9 @@ public class ConverterGUI extends JFrame {
                 case "Kg → Lb":
                     result = WeightConverter.kgToLb(input);
                     break;
+                case "Lb → Kg":
+                    result = WeightConverter.lbToKg(input);
+                    break;    
 
 
 
