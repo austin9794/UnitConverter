@@ -99,6 +99,7 @@ public class ConverterGUI extends JFrame {
                     "Please enter a valid number.",
                     "Input Error",
                     JOptionPane.ERROR_MESSAGE
+            );
 
 
 
