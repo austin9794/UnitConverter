@@ -103,7 +103,10 @@ public class ConverterGUI extends JFrame {
                     break; 
                 case "Meters → Kilometers":
                     result = LengthConverter.metersToKilometers(input);
-                    break;       
+                    break; 
+                case "Kilometers → Meters":
+                    result = LengthConverter.kilometersToMeters(input);
+                    break;          
             }
 
             outputField.setText(String.valueOf(result));
