@@ -91,6 +91,8 @@ public class ConverterGUI extends JFrame {
                     break;    
             }
 
+            outputField.setText(String.valueOf(result));
+
 
 
 
