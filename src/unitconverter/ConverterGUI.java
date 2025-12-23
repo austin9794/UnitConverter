@@ -100,7 +100,10 @@ public class ConverterGUI extends JFrame {
                     break;
                 case "Lb → Kg":
                     result = WeightConverter.lbToKg(input);
-                    break;    
+                    break; 
+                case "Meters → Kilometers":
+                    result = LengthConverter.metersToKilometers(input);
+                    break;       
             }
 
             outputField.setText(String.valueOf(result));
