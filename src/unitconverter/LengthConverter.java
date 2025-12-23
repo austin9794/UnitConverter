@@ -9,3 +9,7 @@ public class LengthConverter {
     public static double kilometersToMeters(double km) {
         return km * 1000;
     }
+
+    public static double centimetersToMeters(double cm) {
+        return cm / 100;
+    }
