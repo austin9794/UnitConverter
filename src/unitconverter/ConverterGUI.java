@@ -18,6 +18,16 @@ public class ConverterGUI extends JFrame {
 
         setLayout(new BorderLayout(10, 10));
 
+        // ===== TOP PANEL =====
+        JPanel topPanel = new JPanel(new GridLayout(2, 2, 10, 10));
+
+        categoryBox = new JComboBox<>(new String[]{"Temperature", "Weight"});
+        conversionBox = new JComboBox<>();
+
+        updateConversions();
+
+        categoryBox.addActionListener(e -> updateConversions());
+
 
 
 
