@@ -71,7 +71,14 @@ public class ConverterGUI extends JFrame {
         case "Weight":
             conversionBox.addItem("Kg → Lb");
             conversionBox.addItem("Lb → Kg");
-            break;    
+            break;   
+        case "Length":
+            conversionBox.addItem("Meters → Kilometers");
+            conversionBox.addItem("Kilometers → Meters");
+            conversionBox.addItem("Centimeters → Meters");
+            conversionBox.addItem("Meters → Centimeters");
+            break;
+                 
     }
 
     private void performConversion() {
