@@ -33,6 +33,13 @@ public class ConverterGUI extends JFrame {
         topPanel.add(new JLabel("Conversion:"));
         topPanel.add(conversionBox);
 
+        // ===== CENTER PANEL =====
+        JPanel centerPanel = new JPanel(new GridLayout(2, 2, 10, 10));
+
+        inputField = new JTextField();
+        outputField = new JTextField();
+        outputField.setEditable(false);
+
 
 
 
