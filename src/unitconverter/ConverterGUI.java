@@ -21,7 +21,7 @@ public class ConverterGUI extends JFrame {
         // ===== TOP PANEL =====
         JPanel topPanel = new JPanel(new GridLayout(2, 2, 10, 10));
 
-        categoryBox = new JComboBox<>(new String[]{"Temperature", "Weight"});
+        categoryBox = new JComboBox<>(new String[]{"Temperature", "Weight", "Length"});
         conversionBox = new JComboBox<>();
 
         updateConversions();
