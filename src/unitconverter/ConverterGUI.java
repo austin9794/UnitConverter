@@ -28,6 +28,11 @@ public class ConverterGUI extends JFrame {
 
         categoryBox.addActionListener(e -> updateConversions());
 
+        topPanel.add(new JLabel("Conversion Type:"));
+        topPanel.add(categoryBox);
+        topPanel.add(new JLabel("Conversion:"));
+        topPanel.add(conversionBox);
+
 
 
 
