@@ -53,4 +53,7 @@ public class ConverterGUI extends JFrame {
         inputPanel.add(categoryLabel);
         inputPanel.add(categoryBox);
 
+        inputPanel.add(conversionLabel);
+        inputPanel.add(conversionBox);
+
 
