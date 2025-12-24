@@ -26,3 +26,8 @@ public class ConverterGUI extends JFrame {
         mainPanel.setBackground(Color.WHITE);
         add(mainPanel);
 
+        JLabel titleLabel = new JLabel("Unit Converter", SwingConstants.CENTER);
+        titleLabel.setFont(new Font("Segoe UI", Font.BOLD, 22));
+        titleLabel.setForeground(new Color(40, 40, 40));
+
+
