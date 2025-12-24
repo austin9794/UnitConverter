@@ -79,5 +79,10 @@ public class ConverterGUI extends JFrame {
     }
 });
 
+resultLabel.setFont(new Font("Segoe UI", Font.BOLD, 16));
+resultLabel.setForeground(new Color(0, 128, 0));
+resultLabel.setHorizontalAlignment(SwingConstants.CENTER);
+
+
 
 
