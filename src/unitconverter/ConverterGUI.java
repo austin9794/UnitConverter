@@ -41,4 +41,7 @@ public class ConverterGUI extends JFrame {
 
         Font labelFont = new Font("Segoe UI", Font.PLAIN, 14);
 
+        JLabel categoryLabel = new JLabel("Category:");
+        categoryLabel.setFont(labelFont);
+
 
