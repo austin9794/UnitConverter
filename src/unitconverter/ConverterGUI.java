@@ -62,4 +62,6 @@ public class ConverterGUI extends JFrame {
         inputPanel.add(new JLabel()); // spacer
         inputPanel.add(convertButton);
 
+        mainPanel.add(inputPanel, BorderLayout.CENTER);
+
 
