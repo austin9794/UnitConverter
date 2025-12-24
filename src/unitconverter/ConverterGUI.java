@@ -30,4 +30,8 @@ public class ConverterGUI extends JFrame {
         titleLabel.setFont(new Font("Segoe UI", Font.BOLD, 22));
         titleLabel.setForeground(new Color(40, 40, 40));
 
+        JPanel titlePanel = new JPanel(new BorderLayout());
+        titlePanel.setBackground(Color.WHITE);
+        titlePanel.add(titleLabel, BorderLayout.CENTER);
+
 
