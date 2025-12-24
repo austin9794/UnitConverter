@@ -56,4 +56,7 @@ public class ConverterGUI extends JFrame {
         inputPanel.add(conversionLabel);
         inputPanel.add(conversionBox);
 
+        inputPanel.add(valueLabel);
+        inputPanel.add(inputField);
+
 
