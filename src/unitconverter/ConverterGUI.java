@@ -50,4 +50,7 @@ public class ConverterGUI extends JFrame {
         JLabel valueLabel = new JLabel("Value:");
         valueLabel.setFont(labelFont);
 
+        inputPanel.add(categoryLabel);
+        inputPanel.add(categoryBox);
+
 
