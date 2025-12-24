@@ -47,4 +47,7 @@ public class ConverterGUI extends JFrame {
         JLabel conversionLabel = new JLabel("Conversion:");
         conversionLabel.setFont(labelFont);
 
+        JLabel valueLabel = new JLabel("Value:");
+        valueLabel.setFont(labelFont);
+
 
