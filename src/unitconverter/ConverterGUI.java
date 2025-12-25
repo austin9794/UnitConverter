@@ -14,11 +14,18 @@ public class ConverterGUI extends JFrame {
 
     public ConverterGUI() {
 
+        private void updateConversionOptions() {
+        conversionBox.removeAllItems();
+
+        String category = (String) categoryBox.getSelectedItem();
+
+
         // Frame setup
         setTitle("Unit Converter");
         setSize(450, 350);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
+        
 
         // Main panel
         JPanel mainPanel = new JPanel(new BorderLayout(15, 15));
