@@ -73,6 +73,8 @@ public class ConverterGUI extends JFrame {
         JLabel historyTitle = new JLabel("History", SwingConstants.CENTER);
         historyTitle.setFont(new Font("Segoe UI", Font.BOLD, 14));
 
+        JScrollPane historyScroll = new JScrollPane(historyList);
+
         // ===== Button Styling =====
         convertButton.setFont(new Font("Segoe UI", Font.BOLD, 14));
         convertButton.setBackground(new Color(33, 150, 243));
