@@ -32,6 +32,8 @@ public class ConverterGUI extends JFrame {
     JList<String> historyList = new JList<>(historyModel);
     historyList.setFont(new Font("Segoe UI", Font.PLAIN, 13));
 
+    JScrollPane scrollPane = new JScrollPane(historyList);
+
     public ConverterGUI() {
         // Window setup
         setTitle("Unit Converter");
