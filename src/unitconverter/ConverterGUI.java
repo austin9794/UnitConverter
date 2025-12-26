@@ -42,6 +42,8 @@ public class ConverterGUI extends JFrame {
         historyModel.clear();
     });
 
+    closeButton.addActionListener(e -> dialog.dispose());
+
     public ConverterGUI() {
         // Window setup
         setTitle("Unit Converter");
