@@ -150,11 +150,11 @@ public class ConverterGUI extends JFrame {
                     else if (conversion.equals("Kilometers → Meters")) {
                         result = LengthConverter.kilometersToMeters(input);
                     } 
-                    else if (conversion.equals("Meters → Miles")) {
-                        result = LengthConverter.metersToMiles(input);
+                    else if (conversion.equals("Centimeters → Meters")) {
+                        result = LengthConverter.centimetersToMeters(input);
                     } 
-                    else if (conversion.equals("Miles → Meters")) {
-                        result = LengthConverter.milesToMeters(input);
+                    else if (conversion.equals("Meters → Centimeters")) {
+                        result = LengthConverter.metersToCentimeters(input);
                     }
                     break;
             }
