@@ -192,7 +192,12 @@ public class ConverterGUI extends JFrame {
                     break;
             }
 
+            String record = input + " → " + result;
             resultLabel.setText("Result: " + result);
+
+            history.add(record);
+            historyModel.addElement(record);
+
 
         } catch (NumberFormatException ex) {
             JOptionPane.showMessageDialog(
