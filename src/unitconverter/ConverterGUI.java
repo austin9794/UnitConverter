@@ -25,7 +25,13 @@ public class ConverterGUI extends JFrame {
     dialog.setSize(350, 400);
     dialog.setLocationRelativeTo(this);
     dialog.setLayout(new BorderLayout(10, 10));
-    
+
+    JLabel title = new JLabel("Conversion History", SwingConstants.CENTER);
+    title.setFont(new Font("Segoe UI", Font.BOLD, 16));
+
+    JList<String> historyList = new JList<>(historyModel);
+    historyList.setFont(new Font("Segoe UI", Font.PLAIN, 13));
+
     public ConverterGUI() {
         // Window setup
         setTitle("Unit Converter");
