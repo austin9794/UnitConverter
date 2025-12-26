@@ -66,6 +66,10 @@ public class ConverterGUI extends JFrame {
 
         mainPanel.add(inputPanel, BorderLayout.CENTER);
 
+        JPanel historyPanel = new JPanel(new BorderLayout(5, 5));
+        historyPanel.setPreferredSize(new Dimension(160, 0));
+        historyPanel.setBackground(Color.WHITE);
+
         // ===== Button Styling =====
         convertButton.setFont(new Font("Segoe UI", Font.BOLD, 14));
         convertButton.setBackground(new Color(33, 150, 243));
