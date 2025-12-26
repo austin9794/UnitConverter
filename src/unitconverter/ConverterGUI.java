@@ -1,9 +1,12 @@
 package unitconverter;
 
-import java.util.ArrayList;
 import java.awt.*;
 import java.awt.event.*;
+import java.util.ArrayList;
+
 import javax.swing.*;
+
+
 
 public class ConverterGUI extends JFrame {
 
@@ -94,6 +97,12 @@ public class ConverterGUI extends JFrame {
         updateConversionOptions();
         categoryBox.addActionListener(e -> updateConversionOptions());
         convertButton.addActionListener(e -> performConversion());
+
+        history = new ArrayList<>();
+        historyModel = new DefaultListModel<>();
+        historyList = new JList<>(historyModel);
+        historyList.setFont(new Font("Segoe UI", Font.PLAIN, 12));
+
 
         setVisible(true);
     }
