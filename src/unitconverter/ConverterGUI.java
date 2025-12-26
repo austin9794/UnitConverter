@@ -48,6 +48,13 @@ public class ConverterGUI extends JFrame {
     buttonPanel.add(clearButton);
     buttonPanel.add(closeButton);
 
+    dialog.add(title, BorderLayout.NORTH);
+    dialog.add(scrollPane, BorderLayout.CENTER);
+    dialog.add(buttonPanel, BorderLayout.SOUTH);
+
+    dialog.setVisible(true);
+}
+
     public ConverterGUI() {
         // Window setup
         setTitle("Unit Converter");
