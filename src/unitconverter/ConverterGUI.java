@@ -3,7 +3,6 @@ package unitconverter;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
-
 import javax.swing.*;
 
 
@@ -15,6 +14,10 @@ public class ConverterGUI extends JFrame {
     private JTextField inputField;
     private JLabel resultLabel;
     private JButton convertButton;
+    private ArrayList<String> history;
+    private DefaultListModel<String> historyModel;
+    private JList<String> historyList;
+
 
     public ConverterGUI() {
         // Window setup
