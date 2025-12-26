@@ -80,7 +80,7 @@ public class ConverterGUI extends JFrame {
         JScrollPane historyScroll = new JScrollPane(historyList);
 
         JButton clearHistoryButton = new JButton("Clear");
-       clearHistoryButton.setFont(new Font("Segoe UI", Font.PLAIN, 12));
+        clearHistoryButton.setFont(new Font("Segoe UI", Font.PLAIN, 12));
 
        clearHistoryButton.addActionListener(e -> {
            history.clear();
@@ -98,6 +98,10 @@ public class ConverterGUI extends JFrame {
         convertButton.setBackground(new Color(33, 150, 243));
         convertButton.setForeground(Color.WHITE);
         convertButton.setFocusPainted(false);
+
+        historyButton = new JButton("History");
+        historyButton.setFont(new Font("Segoe UI", Font.PLAIN, 13));
+
 
         convertButton.addMouseListener(new MouseAdapter() {
             public void mouseEntered(MouseEvent e) {
