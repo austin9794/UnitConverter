@@ -119,3 +119,30 @@ public class ConverterGUI extends JFrame {
         }
     }
 
+    private void performConversion() {
+        try {
+            double input = Double.parseDouble(inputField.getText());
+            String conversion = (String) conversionBox.getSelectedItem();
+            double result = 0;
+
+            switch (conversion) {
+                case "Celsius → Fahrenheit":
+                    result = TemperatureConverter.celsiusToFahrenheit(input);
+                    break;
+                case "Fahrenheit → Celsius":
+                    result = TemperatureConverter.fahrenheitToCelsius(input);
+                    break;
+                case "Kg → Lb":
+                    result = WeightConverter.kgToLb(input);
+                    break;
+                case "Lb → Kg":
+                    result = WeightConverter.lbToKg(input);
+                    break;
+                case "Meters → Feet":
+                    result = LengthConverter.metersToFeet(input);
+                    break;
+                case "Feet → Meters":
+                    result = LengthConverter.feetToMeters(input);
+                    break;
+            }
+
