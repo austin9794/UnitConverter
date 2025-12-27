@@ -69,7 +69,7 @@ public class ConverterGUI extends JFrame {
     clearFields();
 });
 
-conversionBox.addActionListener(e -> clearFields());
+      conversionBox.addActionListener(e -> clearFields());
   
 
         convertButton = new JButton("Convert");
