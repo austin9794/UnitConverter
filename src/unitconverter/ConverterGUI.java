@@ -157,11 +157,16 @@ public class ConverterGUI extends JFrame {
                     break;
             }
 
-            String record = input + " → " + result;
-            history.add(record);
-            historyModel.addElement(record);
+           String[] parts = conversion.split("→");
+           String fromUnit = parts[0].trim();
+           String toUnit = parts[1].trim();
 
-            resultLabel.setText("Result: " + result);
+           String record = input + " " + fromUnit + " → " + result + " " + toUnit;
+
+           history.add(record);
+           historyModel.addElement(record);
+
+            resultLabel.setText("Result: " + result + " " + toUnit);
 
         } catch (NumberFormatException ex) {
             JOptionPane.showMessageDialog(this, "Enter a valid number.");
