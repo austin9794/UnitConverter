@@ -171,6 +171,9 @@ public class ConverterGUI extends JFrame {
         } catch (NumberFormatException ex) {
             JOptionPane.showMessageDialog(this, "Enter a valid number.");
         }
+
+        inputField.setText("");
+
     }
 
     /* ---------------- HISTORY DIALOG ---------------- */
