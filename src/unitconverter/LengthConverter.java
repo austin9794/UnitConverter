@@ -2,19 +2,13 @@ package unitconverter;
 
 public class LengthConverter {
 
-    public static double metersToKilometers(double m) {
-        return m / 1000;
+    // meters ↔ feet
+    public static double metersToFeet(double meters) {
+        return meters * 3.28084;
     }
 
-    public static double kilometersToMeters(double km) {
-        return km * 1000;
-    }
-
-    public static double centimetersToMeters(double cm) {
-        return cm / 100;
-    }
-
-    public static double metersToCentimeters(double m) {
-        return m * 100;
+    public static double feetToMeters(double feet) {
+        return feet / 3.28084;
     }
 }
+
