@@ -32,18 +32,18 @@ Units displayed clearly in results and history
 
 Error handling for invalid inputs
 
-## Concepts Used
-- Java methods
-- Conditional statements
-- User input 
-- Clean package structure
+## Technologies Used
 
-## How to Run
-1. Compile the program
-2. Run `UnitConverter.java`
-3. Follow the menu prompts
+Java
 
-## Future Add Ons
-- Add more units
-- GUI version
-- Exception handling
+Java Swing (GUI)
+
+Java Collections Framework
+
+ArrayList
+
+DefaultListModel
+
+Object-Oriented Programming (OOP)
+
+Event-driven programming
