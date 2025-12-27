@@ -100,3 +100,22 @@ public class ConverterGUI extends JFrame {
         panel.add(resultLabel);
         return panel;
     }
+
+    /* ---------------- LOGIC ---------------- */
+
+    private void updateConversions() {
+        conversionBox.removeAllItems();
+        String category = (String) categoryBox.getSelectedItem();
+
+        if (category.equals("Temperature")) {
+            conversionBox.addItem("Celsius → Fahrenheit");
+            conversionBox.addItem("Fahrenheit → Celsius");
+        } else if (category.equals("Weight")) {
+            conversionBox.addItem("Kg → Lb");
+            conversionBox.addItem("Lb → Kg");
+        } else {
+            conversionBox.addItem("Meters → Feet");
+            conversionBox.addItem("Feet → Meters");
+        }
+    }
+
