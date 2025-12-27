@@ -95,6 +95,8 @@ public class ConverterGUI extends JFrame {
         gbc.gridx = 1; gbc.gridy = 3;
         panel.add(convertButton, gbc);
 
+        convertButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
+
         return panel;
     }
 
