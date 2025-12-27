@@ -43,3 +43,14 @@ Java Collections Framework
 ArrayList
 
 Object-Oriented Programming (OOP)
+
+
+## How to Run
+
+1. Clone the repository:
+
+git clone https://github.com/your-username/unit-converter-java.git
+
+2. Run
+
+UnitConverter.java
