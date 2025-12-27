@@ -90,6 +90,8 @@ public class ConverterGUI extends JFrame {
         gbc.gridx = 1;
         panel.add(inputField, gbc);
 
+        inputField.setHorizontalAlignment(JTextField.RIGHT);
+
         gbc.gridx = 1; gbc.gridy = 3;
         panel.add(convertButton, gbc);
 
