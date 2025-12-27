@@ -157,6 +157,20 @@ public class ConverterGUI extends JFrame {
         }
     }
 
+    private void clearFields() {
+    inputField.setText("");
+    outputField.setText("");
+    resultLabel.setText("Result:");
+
+categoryBox.addActionListener(e -> {
+    updateConversions();   // existing method you already have
+    clearFields();
+});
+
+
+
+
+
     /* ---------------- HISTORY DIALOG ---------------- */
 
     private void showHistoryDialog() {
