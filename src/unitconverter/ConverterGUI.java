@@ -30,3 +30,21 @@ public class ConverterGUI extends JFrame {
 
         setVisible(true);
     }
+
+    /* ---------------- HEADER ---------------- */
+
+    private JPanel buildHeader() {
+        JPanel header = new JPanel(new BorderLayout());
+        header.setBorder(BorderFactory.createEmptyBorder(10, 15, 0, 15));
+
+        JLabel title = new JLabel("Unit Converter");
+        title.setFont(new Font("Segoe UI", Font.BOLD, 22));
+
+        historyButton = new JButton("History");
+        historyButton.addActionListener(e -> showHistoryDialog());
+
+        header.add(title, BorderLayout.WEST);
+        header.add(historyButton, BorderLayout.EAST);
+
+        return header;
+    }
