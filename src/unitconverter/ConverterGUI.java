@@ -162,10 +162,13 @@ public class ConverterGUI extends JFrame {
     outputField.setText("");
     resultLabel.setText("Result:");
 
-categoryBox.addActionListener(e -> {
+   categoryBox.addActionListener(e -> {
     updateConversions();   // existing method you already have
     clearFields();
-});
+   });
+
+   conversionBox.addActionListener(e -> clearFields());
+
 
 
 
